@@ -22,3 +22,5 @@ int* Minion_bonuses(Minion* self);
 int* Minion_penalties(Minion* self);
 
 int* Minion_defends(Minion* self);
+
+int Minion_roll_die(Minion* self);

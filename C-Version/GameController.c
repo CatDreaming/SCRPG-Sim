@@ -17,21 +17,7 @@ int main(int argc, char **argv){
 			printf(",");
 		}
 	}
-	printf("} and should be:{0,0,0,0}\nPenalty Array is: {");
-	for(int i=0; i<4; i++){
-		printf("%d,", penalty[i]);
-		if(i<3){
-			printf(",");
-		}
-	}
-	printf("} and should be:{0,0,0,0}\nDefend Array is: {");
-	for(int i=0; i<2; i++){
-		printf("%d", defend[i]);
-		if(i<1){
-			printf(",");
-		}
-	}
-	printf("} and should be:{0,0}\nTests Complete.");
+	printf("} and should be:{0,0,0,0}\n");
 	Minion_destroy(test);
 	return 0;
 }
